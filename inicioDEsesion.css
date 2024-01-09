@@ -1,0 +1,71 @@
+body{
+    background-image: url('fondogalaxia.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Establece la altura del cuerpo al 100% del viewport */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid ;
+}
+
+h1{
+    color: white;
+    font-family: cursive;
+}
+
+label{
+    color: white;
+}
+
+div{
+    color: white;
+}
+
+
+.logo img{
+    height: 100px;
+    margin-right: 20px;
+    clip-path: circle(50% at 50% 50%);
+}    
+ 
+.logo{
+    position: absolute;
+    display: center;
+    align-items: center;
+    top: 10px; /* Ajusta la distancia desde la parte superior según sea necesario */
+    left: 10px; /* Ajusta la distancia desde la izquierda según sea necesario */
+    max-width: 100px; /* Ajusta el ancho máximo de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
